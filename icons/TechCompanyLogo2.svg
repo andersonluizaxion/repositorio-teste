@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Fundo circular gradiente -->
+  <defs>
+    <linearGradient id="bgGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9b59b6" />
+      <stop offset="100%" stop-color="#8e44ad" />
+    </linearGradient>
+    <linearGradient id="techGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ecc71" />
+      <stop offset="100%" stop-color="#27ae60" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Círculo de fundo -->
+  <circle cx="100" cy="100" r="90" fill="url(#bgGradient2)" />
+  
+  <!-- Elementos tecnológicos -->
+  <g transform="translate(100, 100)">
+    <!-- Hexágono central -->
+    <polygon 
+      points="0,-50 43.3,-25 43.3,25 0,50 -43.3,25 -43.3,-25" 
+      fill="#ecf0f1" 
+      stroke="#bdc3c7" 
+      stroke-width="2" 
+    />
+    
+    <!-- Símbolo de tecnologia (código) -->
+    <g transform="translate(-20, -5) scale(0.8)">
+      <path d="M-15,0 L-5,10 L5,0 L-5,-10 Z" fill="url(#techGradient2)" />
+      <path d="M15,0 L25,10 L35,0 L25,-10 Z" fill="url(#techGradient2)" />
+      <rect x="-5" y="-2" width="30" height="4" rx="2" fill="url(#techGradient2)" />
+    </g>
+    
+    <!-- Círculos decorativos -->
+    <circle cx="-43.3" cy="-25" r="8" fill="#2ecc71" />
+    <circle cx="43.3" cy="-25" r="8" fill="#2ecc71" />
+    <circle cx="0" cy="50" r="8" fill="#2ecc71" />
+    
+    <!-- Linhas de conexão -->
+    <line x1="-43.3" y1="-25" x2="-20" y2="-5" stroke="#ecf0f1" stroke-width="2" />
+    <line x1="43.3" y1="-25" x2="20" y2="-5" stroke="#ecf0f1" stroke-width="2" />
+    <line x1="0" y1="50" x2="0" y2="15" stroke="#ecf0f1" stroke-width="2" />
+  </g>
+  
+  <!-- Nome da empresa (opcional) -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ecf0f1">TECH COMPANY</text>
+</svg> 

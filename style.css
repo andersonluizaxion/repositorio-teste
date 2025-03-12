@@ -26,15 +26,22 @@ h1 {
     color: #2c3e50;
 }
 
+h2 {
+    margin: 30px 0 15px;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
 p {
     margin-bottom: 30px;
 }
 
-.logos {
+.logos, .company-logos {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .logo-item {
@@ -48,10 +55,29 @@ p {
     transform: scale(1.1);
 }
 
+.logo-item p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
 .logo {
     width: 80px;
     height: 80px;
     margin-bottom: 10px;
+}
+
+.company-logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.action-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
 }
 
 button {
